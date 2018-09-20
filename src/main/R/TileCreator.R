@@ -146,5 +146,5 @@ TileCreator <- R6Class("TileCreator",
 
 
 ## create instance of TileCreator
-tileCreator <- TileCreator$new(host = "192.168.99.100", port = "9042", keyspace = "density", table = "points")
-
+# tileCreator <- TileCreator$new(host = "192.168.99.100", port = "9042", keyspace = "density", table = "points")
+tileCreator <- TileCreator$new(host = "0.0.0.0", port = "9042", keyspace = "density", table = "points")
